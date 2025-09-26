@@ -23,7 +23,7 @@ header {
 
 header h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 10px;
 }
 
@@ -40,6 +40,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 30px;
 }
 
 nav ul li a:hover {
@@ -52,4 +53,45 @@ nav ul li a:hover {
     width: 100%;
     object-fit: cover;
     height: 300px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobre h2 {
+    font-family: "Fira Sans", sans-serif !important;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.menu-cardapio-item {
+    border: 2px solid #f87c00;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.menu-cardapio h2 {
+    font-family: "Fira Sans", sans-serif !important;
+    text-align: center;
+    font-size: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
 }
