@@ -22,6 +22,20 @@ header {
     padding: 20px;
 }
 
+.link-admin {
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.link-admin:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #f87c00;
+}
+
 .logo {
     width: 0;
 }
