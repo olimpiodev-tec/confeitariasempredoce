@@ -16,9 +16,19 @@ body {
 }
 
 header {
-    background-color: #f8b400;
+    display: flex;
+    background-color: #EDB948;
     color: #fff;
     padding: 20px;
+}
+
+.logo {
+    width: 0;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 30px;
 }
 
 header h1 {
